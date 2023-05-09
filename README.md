@@ -19,3 +19,4 @@
 ## 🤓 Autores
 
 - Diego Cordova: 20212
+- Cristian Aguirre: 20231
