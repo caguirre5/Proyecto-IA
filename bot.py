@@ -19,7 +19,7 @@ intents.message_content = True
 client = ds.Client(intents=intents)
 
 help_string = '''
-Hola!!, soy Emotion-Sense🤖.
+Hola!!, soy Emotion-Sense 🤖.
 Mi propósito en la existencia es utilizar inteligencia artificial
 para analisis de sentimiento de texto y detectar mensajes con alta
 carga de Trizesa, enojo o felicidad.
