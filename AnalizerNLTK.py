@@ -33,8 +33,9 @@ class SentimentAnalizer:
         for word in final_words:
             word = WordNetLemmatizer().lemmatize(word)
             lemma_words.append(word)
+        processed_text = ' '.join(lemma_words)
 
-        return self.sentiment_analyse(cleaned_text)
+        return self.sentiment_analyse(processed_text)
 
     def sentiment_analyse(self, sentiment_text):
         score = SentimentIntensityAnalyzer().polarity_scores(sentiment_text)
