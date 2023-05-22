@@ -9,7 +9,7 @@
 import discord as ds
 import os
 from random import randint
-from main import SentimentAnalizer
+from AnalizerNLTK import SentimentAnalizer
 
 # Load environment variables from .env file
 from dotenv import load_dotenv
