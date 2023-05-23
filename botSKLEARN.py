@@ -143,5 +143,4 @@ async def on_member_join(member: ds.Member):
 # ---------------------------- Funcionalidad -----------------------
 
 App_Token = os.getenv("TOKEN")
-# App_Token = 'MTEwODI0OTI1NjY4NDQyNTI0Ng.Gp3kjy.XeNtLwioyA0BS9jOBoJ5MK3_Y9G0TiZuQQOrrY'
 client.run(App_Token)  # Corre en discord
